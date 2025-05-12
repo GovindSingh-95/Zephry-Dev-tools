@@ -1,52 +1,36 @@
-# Live link 
-https://utility-zen-hub.lovable.app/
+# ⚡ Zephry — The Dev Toolbox You Didn't Know You Needed
 
-## How can I edit this code?
+> **Tagline**: *Speed up your workflow with one sleek, all-in-one utility.*
 
-There are several ways of editing your application.
+Zephry is a minimalist yet powerful utility web app built for developers who want to test, preview, and manage code fast and effortlessly. Whether you're debugging a regex, formatting JSON, previewing markdown, or organizing code snippets — Zephry has you covered.
 
-**Use your preferred IDE**
+## 🚀 Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🔍 **Regex Tester** — Real-time pattern matching
+- 🧾 **JSON Viewer & Formatter** — Pretty print and explore JSON
+- 📝 **Markdown Previewer** — Live render your markdown notes
+- 💾 **Code Snippet Manager** — Save, copy, and manage code blocks
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### ✨ Bonuses
 
-Follow these steps:
+- 🌓 Dark mode toggle  
+- 💾 Local storage persistence  
+- 🎯 Keyboard shortcuts for switching tools  
+- 📂 Drag-and-drop support for JSON/Markdown
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Built With
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **React.js**
+- **Tailwind CSS**
+- `marked` for Markdown parsing  
+- `react-json-view` for JSON rendering  
+- `react-syntax-highlighter` for code blocks  
+- `codemirror` or `monaco-editor` for code editing  
+- `framer-motion` for smooth animations
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/zephry.git
+   cd zephry
