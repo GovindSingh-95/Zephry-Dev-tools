@@ -30,7 +30,7 @@ const Header: React.FC = () => {
   return (
     <header className="flex items-center justify-between p-4 border-b">
       <div className="flex items-center space-x-2">
-        <h1 className="text-xl font-bold">DevUtils</h1>
+        <h1 className="text-xl font-bold">Zephry</h1>
         <span className="text-xs bg-primary text-primary-foreground px-2 py-0.5 rounded-full">
           v1.0.0
         </span>

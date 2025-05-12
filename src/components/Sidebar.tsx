@@ -88,7 +88,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTool, setActiveTool }) => {
       </div>
       
       <div className="p-2 text-xs text-center text-sidebar-foreground/50">
-        {!collapsed && "DevUtils © 2025"}
+        {!collapsed && "Zephry © 2025"}
       </div>
     </div>
   );
