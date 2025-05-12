@@ -34,3 +34,14 @@ Zephry is a minimalist yet powerful utility web app built for developers who wan
    ```bash
    git clone https://github.com/your-username/zephry.git
    cd zephry
+
+2. **Install Dependecies**
+   ```bash
+   npm install
+
+3. **Run the app**
+   ```bash
+   npm start
+
+##🧠 Why Zephry?##
+   Fast. Lightweight. Focused on devs. Instead of cluttered toolkits or multiple browser tabs,      Zephry offers all your essentials in one fluid interface.
