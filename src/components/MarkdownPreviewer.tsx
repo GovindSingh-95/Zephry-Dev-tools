@@ -11,8 +11,19 @@ const MarkdownPreviewer: React.FC = () => {
   useEffect(() => {
     try {
       // Use the marked library to convert markdown to HTML
-      const renderedHtml = marked(markdown);
-      setHtml(renderedHtml);
+      // Handle the possible Promise return type
+      const result = marked(markdown);
+      
+      if (result instanceof Promise) {
+        result.then(renderedHtml => {
+          setHtml(renderedHtml);
+        }).catch(error => {
+          console.error("Error parsing markdown:", error);
+          setHtml("<p>Error rendering markdown</p>");
+        });
+      } else {
+        setHtml(result);
+      }
     } catch (error) {
       console.error("Error parsing markdown:", error);
       setHtml("<p>Error rendering markdown</p>");
