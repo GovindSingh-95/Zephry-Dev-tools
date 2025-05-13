@@ -28,6 +28,10 @@ Zephry is a minimalist yet powerful utility web app built for developers who wan
 - `codemirror` or `monaco-editor` for code editing  
 - `framer-motion` for smooth animations
 
+## 🔗 Live Link
+[Check Zephry out](https://utility-zen-hub.lovable.app/)
+
+
 ## 📦 Getting Started
 
 1. **Clone the repository**  
