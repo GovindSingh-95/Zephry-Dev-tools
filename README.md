@@ -56,6 +56,6 @@ Zephry is a minimalist yet powerful utility web app built for developers who wan
 3. **Run the app**
    ```bash
    npm start
-
-##🧠 Why Zephry?##
+   ```
+## 🧠 Why Zephry?
    Fast. Lightweight. Focused on devs. Instead of cluttered toolkits or multiple browser tabs,      Zephry offers all your essentials in one fluid interface.
