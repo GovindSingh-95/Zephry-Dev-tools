@@ -1,6 +1,6 @@
 # ⚡ Zephry — The Dev Toolbox You Didn't Know You Needed
 
-> **Tagline**: *Speed up your workflow with one sleek, all-in-one utility.*
+> *Speed up your workflow with one sleek, all-in-one utility.*
 
 Zephry is a minimalist yet powerful utility web app built for developers who want to test, preview, and manage code fast and effortlessly. Whether you're debugging a regex, formatting JSON, previewing markdown, or organizing code snippets — Zephry has you covered.
 
